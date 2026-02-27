@@ -52,36 +52,67 @@ body::before {
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     transform: translateY(0);
     transition: transform 0.3s ease-in-out;
-
+    box-sizing: border-box;
 }
 .navbar.scrolled {
 
 }
 .icon-logo{
-    height: 35px;
+    height: 50px;
+    padding-left: 15px;
     
+}
+.bx-menu{
+    scale: 2;
+    cursor: pointer;
+    color: var(--color-secondary);
+    padding-right: 10px;
+}
+.list-ul-none{
+    display: none;
 }
 .list-ul {
     font-family: var(--primary-font);
     display: flex;
-    height: 100%;
-    flex-direction: row;
+    position: absolute;
+    right: 5px;
+    height: 20vh;
+    top: 5px;
+    background-color: var(--color-secondary);
+    flex-direction: column;
     list-style-type: none;
     gap: 0.8rem;
-    color: var(--color-secondary);
+    color: var(--color-quaternary);
     font-weight: bold;
     font-size: 16px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    
     /*writing-mode: vertical-rl;*/
 
+}
+.list-ul li{
+padding:2px 5px ;
 
 }
+.close-menu{
+    background-color: transparent;
+    border: none;
+    color: var(--color-quaternary);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
 .list-ul a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 
@@ -90,7 +121,7 @@ body::before {
     height: 60px;
     position: fixed;
     right: 3px;
-    top: 335px;
+    top: 345px;
     border: none;
     background-image: url('/public/luna-boton.png');
     background-repeat: no-repeat;
@@ -264,6 +295,5 @@ body::before {
 font-weight: bold;
 color: var(--color-quaternary);
 }
-
 
 
