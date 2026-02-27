@@ -50,7 +50,7 @@ body::before {
     /*border-radius: 15px 0 0 15px;*/
     padding: 0.5rem;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: center;
     justify-content: space-around;
     transform: translateY(0);
@@ -90,7 +90,7 @@ body::before {
     height: 60px;
     position: fixed;
     right: 3px;
-    top: 100px;
+    top: 335px;
     border: none;
     background-image: url('/public/luna-boton.png');
     background-repeat: no-repeat;
@@ -140,30 +140,30 @@ body::before {
     background-image: url('/src/assets/backgrounds/mask-efect-2-dorado.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 30px;
+    background-position:center right -45px;
     
     height: 100vh;
     max-height: 800px;
     width: 100%;
     box-sizing: border-box;
-
     align-content: center;
 }
 
 .title-welcome {
 
     position: absolute;
-    top: 555px;
+    top: 510px;
     height: auto;
     width: 65%;
     margin: 0 auto;
     padding: 0.5rem;
+    padding-bottom: 15px;
     background-color: #6b1f2cc4;
     text-shadow: 0 0 15px var();
 }
 
 .title1 {
-    font-size: 45px;
+    font-size: 55px;
     font-family: var(--primary-font);
     color: var(--color-quaternary);
     font-weight: bold;
@@ -186,7 +186,7 @@ body::before {
     padding-left: 4px;
     color: var(--color-quaternary);
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 
