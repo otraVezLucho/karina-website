@@ -14,13 +14,13 @@
 
 
 
+body {
+    background-color: rgb(70, 70, 70);
+    position: relative;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    }
 @media (max-width:435px) {
-    body {
-        background-color: rgb(70, 70, 70);
-        position: relative;
-        overflow-x: hidden;
-        box-sizing: border-box;
-        }
 
     body::before {
         content: "";
@@ -318,9 +318,10 @@
     }
 
 
-        .el-camino-section {
-            height: 1200px;
-        }
+    .el-camino-section {
+        position: relative;
+        max-width: 435px;
+    }
 
     .entrada-texto {
         background-color: var(--color-quinary);
@@ -345,27 +346,35 @@
     .el-camino-p2 {
         padding-left: 0;
     }
-
+    .el-camino-parte-2{
+      
+      
+    }
     .el-camino-parte-2 p {
-        position: relative;
-        top: -410px;
+        position: absolute;
+        bottom: 20%;
+    
         color: var(--color-quaternary);
         font-size: 22px;
         font-family: var(--primary-font);
         padding-left: 9rem;
-        padding-right: 1rem;
+        padding-right: 0.5rem;
         text-align: right;
         font-weight: bold;
     }
+        .el-camino-parte-2 img{
+            width: 100%;
+        }
 
     .texto-2-el-camino {
         background-color: var(--color-quinary);
-        padding: 3rem 1rem;
+        padding: 2rem 1rem;
         text-align: center;
         font-family: var(--primary-font);
         font-size: 22px;
-        position: relative;
-        top: -360px;
+        position: absolute;
+        bottom: -13%;
+        
     }
 
     .texto-2-el-camino strong {
@@ -385,6 +394,7 @@
     }
     .container-carrusel{
         position: relative;
+        top: 40px;
         left: -130px;
         width: 400px;
         height: 400px;
@@ -440,13 +450,14 @@
 
     .box .img .img-box{
         position: absolute;
-        width: 120px;
-        height: 120px;
-        /*border-radius: 50%;No lo voy a usar*/
+        left: 30px;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
         transform:  rotate( calc(360deg / 8 * var(--i)));
-        transform-origin: 220px;
-        
-        clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+        transform-origin: 280px ;
+        overflow: hidden;
+        /*clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);*/
     
     }
         
@@ -476,8 +487,5 @@
     .container-carrusel:hover .box .img .img-box img{
         animation-play-state: paused;
     }
-    
-    
-    
 
 }
