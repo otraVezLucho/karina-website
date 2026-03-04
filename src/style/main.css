@@ -180,15 +180,16 @@ body {
 
     .first-view {
         position: relative;
+        
         background-image: url('/src/assets/backgrounds/mask-efect-2-dorado.png');
         background-repeat: no-repeat;
         background-size:cover;
-        background-position: center right ;
+        background-position: center right -40px ;
 
         height: 100vh;
         min-height: 753px;
         width: 100%;
-        max-width: 420px;
+        max-width: 440px;
         box-sizing: border-box;
         align-content: center;
     }
