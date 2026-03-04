@@ -279,28 +279,18 @@
         color: #6B1F2C;
     }
 
-    .p1 {
-        
+    #p1-yo-soy {
         position: absolute;
-        bottom: 8%;
-        width: 100%;
-        
-        font-size: 20px;
-        color: #0E0B10;
-        text-align: justify;
-        padding: 0 1rem;
-        /*border: 4px solid #B89B5E;*/
-        font-family: 'Times New Roman';
-        box-sizing: border-box;
+        width: 380px;
 
     }
 
     .p2 {
         
         position: absolute;
-        bottom: 20%;
+        bottom: 25%;
         width: 144px;
-        font-size: 20px;
+        font-size: 22px;
         /*border: 4px solid #B89B5E;*/
         font-family: 'Times New Roman';
         text-align: left;
@@ -320,7 +310,7 @@
         padding: 5px;
         position: absolute;
         
-        bottom: 1%;
+        bottom: 4%;
         right: 0;
         width: 50%;
         font-size: 18px;
