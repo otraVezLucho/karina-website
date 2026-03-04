@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
     --primary-font: 'Montserrat', sans-serif;
     --color-primary: #0E0B10;
@@ -19,25 +20,27 @@ body {
     position: relative;
     overflow-x: hidden;
     box-sizing: border-box;
-    }
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    max-width: 435px;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.95)), url('/public/Karina_Portada.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    filter: grayscale(100%);
+    z-index: -1;
+
+}
+
 @media (max-width:435px) {
 
-    body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: auto;
-        max-width: 435px;
-        height: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.9),
-                rgba(0, 0, 0, 0.95)), url('/public/Karina_Portada.JPG');
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        filter: grayscale(100%);
-        z-index: -1;
-
-    }
 
 
 
@@ -59,20 +62,24 @@ body {
         transition: transform 0.3s ease-in-out;
         box-sizing: border-box;
     }
+
     .icon-logo {
         height: 50px;
         padding-left: 15px;
 
     }
+
     .bx-menu {
         scale: 2;
         cursor: pointer;
         color: var(--color-secondary);
         padding-right: 10px;
     }
+
     .list-ul-none {
         display: none;
     }
+
     .list-ul {
         font-family: var(--primary-font);
         display: flex;
@@ -94,10 +101,12 @@ body {
         /*writing-mode: vertical-rl;*/
 
     }
+
     .list-ul li {
         padding: 2px 5px;
 
     }
+
     .close-menu {
         background-color: transparent;
         border: none;
@@ -106,16 +115,18 @@ body {
         font-size: 16px;
         cursor: pointer;
     }
+
     .list-ul a {
         text-decoration: none;
         color: inherit;
 
     }
+
     .button-store {
         width: 60px;
         height: 60px;
         position: fixed;
-        right:0;
+        right: 0;
         top: 345px;
         border: none;
         background-image: url('/public/luna-boton.png');
@@ -128,6 +139,7 @@ body {
 
 
     }
+
     .button-store i {
         width: 100%;
         height: 100%;
@@ -139,13 +151,16 @@ body {
 
 
     }
+
     .button-store p {
         display: none;
     }
+
     .button-store:hover {
         width: 80px;
         height: 80px;
     }
+
     .button-store:hover p {
         display: inline;
         font-family: var(--primary-font);
@@ -154,6 +169,7 @@ body {
         color: #8b172b;
         text-shadow: 0 0 2px #B89B5E;
     }
+
     .button-store:hover i {
         display: none;
     }
@@ -164,7 +180,7 @@ body {
         position: relative;
         background-image: url('/src/assets/backgrounds/mask-efect-2-dorado.png');
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size: cover;
         background-position: center right -30px;
         height: 100vh;
         min-height: 753px;
@@ -237,7 +253,8 @@ body {
         font-weight: 500;
 
     }
-    .section-yo-soy{
+
+    .section-yo-soy {
         height: 100vh;
         width: 100;
     }
@@ -249,7 +266,7 @@ body {
         box-sizing: border-box;
     }
 
-    
+
 
     .yo-soy-container img {
         width: 100%;
@@ -262,7 +279,7 @@ body {
 
 
 
-    
+
 
     .h3-title-yo-soy {
         position: absolute;
@@ -286,7 +303,7 @@ body {
     }
 
     .p2 {
-        
+
         position: absolute;
         bottom: 25%;
         width: 144px;
@@ -309,7 +326,7 @@ body {
         text-align: center;
         padding: 5px;
         position: absolute;
-        
+
         bottom: 4%;
         right: 0;
         width: 50%;
@@ -320,6 +337,7 @@ body {
 
     .el-camino-section {
         position: relative;
+        background-color: transparent;
         max-width: 435px;
     }
 
@@ -346,14 +364,13 @@ body {
     .el-camino-p2 {
         padding-left: 0;
     }
-    .el-camino-parte-2{
-      
-      
-    }
+
+    .el-camino-parte-2 {}
+
     .el-camino-parte-2 p {
         position: absolute;
         bottom: 20%;
-    
+
         color: var(--color-quaternary);
         font-size: 22px;
         font-family: var(--primary-font);
@@ -362,9 +379,10 @@ body {
         text-align: right;
         font-weight: bold;
     }
-        .el-camino-parte-2 img{
-            width: 100%;
-        }
+
+    .el-camino-parte-2 img {
+        width: 100%;
+    }
 
     .texto-2-el-camino {
         background-color: var(--color-quinary);
@@ -374,7 +392,7 @@ body {
         font-size: 22px;
         position: absolute;
         bottom: -13%;
-        
+
     }
 
     .texto-2-el-camino strong {
@@ -384,7 +402,7 @@ body {
     /*desde aca viene el estilo del carrusel*/
 
 
-    .section-carrusel-fotos{
+    .section-carrusel-fotos {
         height: 100vh;
         box-sizing: border-box;
         display: flex;
@@ -392,7 +410,8 @@ body {
         justify-content: center;
         overflow: hidden;
     }
-    .container-carrusel{
+
+    .container-carrusel {
         position: relative;
         top: 40px;
         left: -130px;
@@ -403,41 +422,46 @@ body {
         justify-content: center;
         border-radius: 50%;
     }
-    .center-image{
+
+    .center-image {
         position: absolute;
         width: 200px;
         height: 200px;
         border-radius: 50%;
         overflow: hidden;
         z-index: 2;
-        }
+    }
 
-    .center-image img{
+    .center-image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 50%;        
+        border-radius: 50%;
     }
-    .box{
+
+    .box {
         position: relative;
         width: 300px;
         height: 300px;
         animation: animation 60s linear infinite;
-        border-radius:50%;
+        border-radius: 50%;
     }
+
     @keyframes animation {
-        0%{
-             rotate: 0deg;
+        0% {
+            rotate: 0deg;
         }
-        100%{
+
+        100% {
             rotate: 360deg;
         }
     }
 
-    container:hover .box{
+    container:hover .box {
         animation-play-state: paused;
     }
-    .box .img{
+
+    .box .img {
         position: absolute;
         left: -53%;
         width: 100%;
@@ -448,21 +472,21 @@ body {
         cursor: pointer;
     }
 
-    .box .img .img-box{
+    .box .img .img-box {
         position: absolute;
         left: 30px;
         width: 140px;
         height: 140px;
         border-radius: 50%;
-        transform:  rotate( calc(360deg / 8 * var(--i)));
-        transform-origin: 280px ;
+        transform: rotate(calc(360deg / 8 * var(--i)));
+        transform-origin: 280px;
         overflow: hidden;
         /*clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);*/
-    
+
     }
-        
-    
-    .box .img .img-box img{
+
+
+    .box .img .img-box img {
         position: absolute;
         top: 0;
         left: 0;
@@ -474,17 +498,19 @@ body {
         animation: animateImg-box 60s linear infinite;
 
     }
+
     @keyframes animateImg-box {
-        0%{
-            rotate:0deg;
+        0% {
+            rotate: 0deg;
         }
-        100%{
+
+        100% {
             rotate: -360deg;
         }
-        
+
     }
 
-    .container-carrusel:hover .box .img .img-box img{
+    .container-carrusel:hover .box .img .img-box img {
         animation-play-state: paused;
     }
 
