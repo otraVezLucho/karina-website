@@ -27,13 +27,13 @@ body::before {
     position: fixed;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     max-width: 435px;
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9),
             rgba(0, 0, 0, 0.95)), url('/public/Karina_Portada.JPG');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     filter: grayscale(100%);
     z-index: -1;
 
@@ -413,13 +413,13 @@ body::before {
         height: 200px;
         border-radius: 50%;
         overflow: hidden;
-        z-index: 2;
+       
     }
 
-    .center-image img {
+    .center-image p {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        
         border-radius: 50%;
     }
 
