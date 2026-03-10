@@ -446,7 +446,6 @@ body::before {
 
     #p1-carrusel {
         font-size: 20px;
-        
         color: var(--color-quaternary);
     }
 
@@ -489,9 +488,11 @@ body::before {
         width: 140px;
         height: 140px;
         border-radius: 50%;
+        border: 2px solid var(--color-quaternary);
         transform: rotate(calc(360deg / 8 * var(--i)));
         transform-origin: 280px;
         overflow: hidden;
+        box-shadow: 0 0 10px var(--color-quaternary);
         /*clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);*/
 
     }
