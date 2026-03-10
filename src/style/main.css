@@ -448,7 +448,7 @@ body::before {
     #p1-carrusel {
         font-size: 20px;
         
-        color: var(--color-secondary);
+        color: var(--color-quaternary);
     }
 
     .box {
@@ -497,7 +497,6 @@ body::before {
 
     }
 
-
     .box .img .img-box img {
         position: absolute;
         top: 0;
@@ -508,22 +507,28 @@ body::before {
         /*border-radius: 50%;No lo voy a usar*/
         transform: rotate(calc(-360deg/8 *var(--i)));
         animation: animateImg-box 60s linear infinite;
-
     }
 
     @keyframes animateImg-box {
         0% {
             rotate: 0deg;
         }
-
         100% {
             rotate: -360deg;
         }
-
     }
 
     .container-carrusel:hover .box .img .img-box img {
         animation-play-state: paused;
     }
 
+    .texto-cierre{
+        position: relative;
+        top: -50px;
+        padding: 1rem;
+        color: var(--color-quinary);
+        font-size: 22px;
+        text-align: justify;
+        font-family: var(--primary-font);
+    }
 }
