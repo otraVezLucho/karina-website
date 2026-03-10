@@ -349,39 +349,52 @@ body::before {
         padding-left: 0;
     }
 
-    .el-camino-parte-2 {}
+
 
     .el-camino-parte-2 p {
-        position: absolute;
-        bottom: 20%;
-
         color: var(--color-quaternary);
         font-size: 22px;
         font-family: var(--primary-font);
         padding-left: 9rem;
-        padding-right: 0.5rem;
+        padding-right: 2%;
         text-align: right;
         font-weight: bold;
+    }
+    .el-camino-container-texto{
+            position: absolute;
+            top: 650px;
+    }
+
+    #el-camino-p2 {
+        padding-left: 0.5rem;
     }
 
     .el-camino-parte-2 img {
         width: 100%;
     }
 
+    .section-separador-elcamino-cierre{
+        position: relative;
+        top: -5px;
+    }
+    #swap-section-3{
+        position: relative;
+        top: -5px;
+    }
     .texto-2-el-camino {
         background-color: var(--color-quinary);
         padding: 2rem 1rem;
         text-align: center;
         font-family: var(--primary-font);
         font-size: 22px;
-        position: absolute;
-        bottom: -13%;
-
+        
     }
 
     .texto-2-el-camino strong {
         color: var(--color-secondary);
     }
+
+
 
     /*desde aca viene el estilo del carrusel*/
 
@@ -390,7 +403,7 @@ body::before {
         height: 100vh;
         box-sizing: border-box;
         position: relative;
-        top: 80px;
+        top: -50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -400,7 +413,7 @@ body::before {
     .container-carrusel {
         position: relative;
         top: 40px;
-        left: -130px;
+        left: -100px;
         width: 400px;
         height: 400px;
         display: flex;
@@ -413,23 +426,29 @@ body::before {
         position: absolute;
         width: 200px;
         height: 200px;
-        border-radius: 50%;
-        overflow: hidden;
+        border-radius: 80%;
+
         padding-left: 20px;
-       
+
     }
 
     .center-image p {
         width: 100%;
-        height: 100%;
+        height: 30%;
         align-content: center;
         justify-content: center;
         text-align: center;
-        border-radius: 50%;
-        font-size: 30px;
+        border-radius: 80%;
+        font-size: 18px;
         color: var(--color-quinary);
         font-family: var(--primary-font);
+
+    }
+
+    #p1-carrusel {
+        font-size: 20px;
         
+        color: var(--color-secondary);
     }
 
     .box {
