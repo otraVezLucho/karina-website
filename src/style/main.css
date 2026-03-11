@@ -359,34 +359,38 @@ body::before {
         text-align: right;
         font-weight: bold;
     }
-    .el-camino-container-texto{
-            position: absolute;
-            top: 650px;
+
+    .el-camino-container-texto {
+        position: absolute;
+        top: 650px;
     }
 
     #el-camino-p2 {
         padding-left: 0.5rem;
     }
 
+
     .el-camino-parte-2 img {
         width: 100%;
     }
 
-    .section-separador-elcamino-cierre{
+    .section-separador-elcamino-cierre {
         position: relative;
         top: -160px;
     }
-    #swap-section-3{
+
+    #swap-section-3 {
         position: relative;
         top: -220px;
     }
+
     .texto-2-el-camino {
         background-color: var(--color-quinary);
         padding: 2rem 1rem;
         text-align: center;
         font-family: var(--primary-font);
         font-size: 22px;
-        
+
     }
 
     .texto-2-el-camino strong {
@@ -513,6 +517,7 @@ body::before {
         0% {
             rotate: 0deg;
         }
+
         100% {
             rotate: -360deg;
         }
@@ -522,7 +527,7 @@ body::before {
         animation-play-state: paused;
     }
 
-    .texto-cierre{
+    .texto-cierre {
         position: relative;
         top: -240px;
         padding: 1rem;
@@ -531,4 +536,91 @@ body::before {
         text-align: justify;
         font-family: var(--primary-font);
     }
+
+
+    .section-libro {
+        position: relative;
+        top: -220px;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .titulo-libro {
+        background-color: var(--color-secondary);
+        padding: 1rem;
+        position: absolute;
+        top: 20px;
+        left: 39px;
+        z-index: 2;
+        color: var(--color-quaternary);
+        font-family: var(--primary-font);
+
+    }
+
+    .titulo-libro h2{
+        font-size: 30px;
+    }
+    .titulo-libro p{
+        font-size: 22px;
+        color: var(--color-quinary);
+
+    }
+
+    .imagen-libro {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+    }
+
+    .imagen-libro img {
+
+        height: 100%;
+        object-fit: cover;
+        filter: grayscale(100%) blur(3px);
+        opacity: 0.8;
+        scale: 1.6;
+
+    }
+
+    .imagen-libro-2 {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagen-libro-2 img {
+        width: 80%;
+        position: absolute;
+        top: 110px;
+        box-shadow: 0 0 15px var(--color-primary);
+    }
+
+    .descripcion-libro{
+        position: absolute;
+        bottom: 10px;
+        right: 34px;
+        background-color: var(--color-quinary);
+        
+        font-size: 20px;
+        padding: 1rem;
+        margin: 0 auto;
+        font-family: var(--primary-font);
+    }
+
+    .descripcion-libro h3{
+        color: var(--color-secondary);
+
+    }
+
+
+
 }
