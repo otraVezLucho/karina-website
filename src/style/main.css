@@ -629,7 +629,7 @@ body::before {
 
     .descripcion-libro{
         position: absolute;
-        bottom: 10px;
+        bottom: 30px;
         right: 34px;
         background-color: var(--color-quinary);
         
