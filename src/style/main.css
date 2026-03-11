@@ -553,7 +553,7 @@ body::before {
         padding: 1rem;
         position: absolute;
         top: 20px;
-        left: 39px;
+        left: 35px;
         z-index: 2;
         color: var(--color-quaternary);
         font-family: var(--primary-font);
@@ -584,24 +584,47 @@ body::before {
         filter: grayscale(100%) blur(3px);
         opacity: 0.8;
         scale: 1.6;
+        z-index: -2;
 
     }
+    .carrusel-libro{
+        position: absolute;
+        top: 120px;
+        display: flex;
+        width: 80%;
+        height: 60%;
+        border: 2px solid var(--color-quaternary);
+        overflow-x: auto;
+        
+
+    }
+    .grupo-imagenes{
+        display: flex;
+              
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 0.5rem;
+        animation: slide 20s linear infinite;
+        padding-right: 0.5em;
+    }
+
 
     .imagen-libro-2 {
+       
         height: 100%;
         width: 100%;
-        position: absolute;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
+        align-content: center;
+        
 
     }
 
     .imagen-libro-2 img {
-        width: 80%;
-        position: absolute;
-        top: 110px;
-        box-shadow: 0 0 15px var(--color-primary);
+        object-fit: contain;
+        height: 530px;
+        
+        
     }
 
     .descripcion-libro{
@@ -618,9 +641,11 @@ body::before {
 
     .descripcion-libro h3{
         color: var(--color-secondary);
-
     }
-
+    @keyframes slide {
+        from{translate:0}
+        to{translate:-100%}
+    }
 
 
 }
