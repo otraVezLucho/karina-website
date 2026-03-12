@@ -693,7 +693,7 @@ body::before {
 
     .descripcion-libro-2 {
         position: absolute;
-        top: 1400px;
+        top: 1435px;
         left: 34px;
         background-color: var(--color-quinary);
         font-size: 20px;
@@ -705,7 +705,7 @@ body::before {
     }
 
     .boton-comprar-libro-2 {
-        top: 1570px;
+        top: 1620px;
     }
 
     #swap-section-4 {}
