@@ -552,29 +552,31 @@ body::before {
         background-color: var(--color-secondary);
         padding: 1rem;
         position: absolute;
-        top: 20px;
-        left: 35px;
+        top: 50px;
+        left: 40px;
         z-index: 2;
         color: var(--color-quaternary);
         font-family: var(--primary-font);
 
     }
 
-    .titulo-libro h2{
+    .titulo-libro h2 {
         font-size: 30px;
     }
-    .titulo-libro p{
+
+    .titulo-libro p {
         font-size: 22px;
         color: var(--color-quinary);
 
     }
 
     .imagen-libro {
-        height: 100%;
+        height: 220%;
         width: 100%;
         position: absolute;
         top: 0;
         overflow: hidden;
+
     }
 
     .imagen-libro img {
@@ -585,26 +587,28 @@ body::before {
         opacity: 0.8;
         scale: 1.6;
         z-index: -2;
+        object-position: -250px;
 
     }
-    .carrusel-libro{
+
+    .carrusel-libro,
+    .carrusel-libro-2 {
         position: absolute;
-        top: 120px;
+        top: 200px;
         display: flex;
         width: 80%;
-        height: 60%;
+        height: 65%;
         border: 2px solid var(--color-quaternary);
         overflow-x: auto;
-        
+
 
     }
-    .grupo-imagenes{
+
+    .grupo-imagenes {
         display: flex;
-              
         height: 100%;
         align-items: center;
         justify-content: center;
-        
         gap: 0.5rem;
         animation: slide 30s linear infinite;
         padding-right: 0.5em;
@@ -612,40 +616,84 @@ body::before {
 
 
     .imagen-libro-2 {
-       
         height: 100%;
-
         align-content: center;
-        
-
     }
 
     .imagen-libro-2 img {
         object-fit: contain;
-        height: 530px;
-        
-        
+        height: 500px;
     }
 
-    .descripcion-libro{
+    .descripcion-libro,
+    .descripcion-libro-2 {
         position: absolute;
-        bottom: 50px;
+        top: 680px;
         right: 34px;
         background-color: var(--color-quinary);
-        
         font-size: 20px;
         padding: 1rem;
         margin: 0 auto;
         font-family: var(--primary-font);
     }
 
-    .descripcion-libro h3{
+    .descripcion-libro h3, .descripcion-libro-2 h3 {
         color: var(--color-secondary);
     }
+
     @keyframes slide {
-        from{translate:0}
-        to{translate:-100%}
+        from {
+            translate: 0
+        }
+
+        to {
+            translate: -100%
+        }
     }
 
+    .boton-comprar-libro-1, .boton-comprar-libro-2 {
+        position: absolute;
+        top: 850px;
+        height: 50px;
+        width: 70%;
+        z-index: 1;
+        font-family: var(--primary-font);
+        font-size: 25px;
+        font-weight: bold;
+        border: none;
+        color: var(--color-quaternary);
+        background-color: var(--color-secondary);
 
+    }
+
+    .boton-comprar-libro-1 a {
+        text-decoration: none;
+        color: inherit;
+
+    }
+    .boton-comprar-libro-2 a {
+        text-decoration: none;
+        color: inherit;
+
+    }
+
+    .boton-comprar-libro-1:hover {
+        background-color: var(--color-quaternary);
+        color: var(--color-secondary);
+        font-size: 26px;
+
+
+    }
+
+    .carrusel-libro-2 {
+        top: 950px;
+    }
+
+    .descripcion-libro-2 {
+        top: 1400px;
+        
+    }
+    .boton-comprar-libro-2 {
+        top: 1570px;
+    }
 }
