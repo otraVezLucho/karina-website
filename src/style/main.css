@@ -622,11 +622,10 @@ body::before {
 
     .imagen-libro-2 img {
         object-fit: contain;
-        height: 500px;
+        height: 100%;
     }
 
-    .descripcion-libro,
-    .descripcion-libro-2 {
+    .descripcion-libro {
         position: absolute;
         top: 680px;
         right: 34px;
@@ -637,7 +636,8 @@ body::before {
         font-family: var(--primary-font);
     }
 
-    .descripcion-libro h3, .descripcion-libro-2 h3 {
+    .descripcion-libro h3,
+    .descripcion-libro-2 h3 {
         color: var(--color-secondary);
     }
 
@@ -651,7 +651,8 @@ body::before {
         }
     }
 
-    .boton-comprar-libro-1, .boton-comprar-libro-2 {
+    .boton-comprar-libro-1,
+    .boton-comprar-libro-2 {
         position: absolute;
         top: 850px;
         height: 50px;
@@ -671,6 +672,7 @@ body::before {
         color: inherit;
 
     }
+
     .boton-comprar-libro-2 a {
         text-decoration: none;
         color: inherit;
@@ -690,10 +692,21 @@ body::before {
     }
 
     .descripcion-libro-2 {
+        position: absolute;
         top: 1400px;
-        
+        left: 34px;
+        background-color: var(--color-quinary);
+        font-size: 20px;
+        padding: 1rem;
+        margin: 0 auto;
+        font-family: var(--primary-font);
+
+
     }
+
     .boton-comprar-libro-2 {
         top: 1570px;
     }
+
+    #swap-section-4 {}
 }
