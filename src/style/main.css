@@ -606,7 +606,7 @@ body::before {
         justify-content: center;
         
         gap: 0.5rem;
-        animation: slide 20s linear infinite;
+        animation: slide 30s linear infinite;
         padding-right: 0.5em;
     }
 
@@ -614,7 +614,7 @@ body::before {
     .imagen-libro-2 {
        
         height: 100%;
-        width: 100%;
+
         align-content: center;
         
 
