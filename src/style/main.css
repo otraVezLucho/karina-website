@@ -571,7 +571,7 @@ body::before {
     }
 
     .imagen-libro {
-        height: 220%;
+        height: 250%;
         width: 100%;
         position: absolute;
         top: 0;
@@ -654,7 +654,7 @@ body::before {
     .boton-comprar-libro-1,
     .boton-comprar-libro-2 {
         position: absolute;
-        top: 850px;
+        top: 860px;
         height: 50px;
         width: 70%;
         z-index: 1;
@@ -688,12 +688,12 @@ body::before {
     }
 
     .carrusel-libro-2 {
-        top: 950px;
+        top: 1150px;
     }
 
     .descripcion-libro-2 {
         position: absolute;
-        top: 1435px;
+        top: 1635px;
         left: 34px;
         background-color: var(--color-quinary);
         font-size: 20px;
@@ -705,8 +705,11 @@ body::before {
     }
 
     .boton-comprar-libro-2 {
-        top: 1620px;
+        top: 1810px;
     }
 
-    #swap-section-4 {}
+    #swap-section-4 {
+        position: relative;
+        bottom: -910px;
+    }
 }
