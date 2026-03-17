@@ -656,7 +656,7 @@ body::before {
     .boton-comprar-libro-1,
     .boton-comprar-libro-2 {
         position: absolute;
-        top: 815px;
+        top: 835px;
         height: 50px;
         width: 70%;
         z-index: 1;
@@ -686,7 +686,7 @@ body::before {
 
     .texto-libros-intermedio{
         position: absolute;
-        top: 770px;
+        top: 790px;
         background-color: var(--color-quaternary);
         font-size: 20px;
         padding: 1rem;
@@ -716,7 +716,7 @@ body::before {
     }
 
     .boton-comprar-libro-2 {
-        top: 1830px;
+        top: 1850px;
  
     }
     .boton-comprar-libro-2 a {
