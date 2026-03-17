@@ -553,7 +553,7 @@ body::before {
         padding: 1rem;
         position: absolute;
         top: 50px;
-        left: 40px;
+        left: 20px;
         z-index: 2;
         color: var(--color-quaternary);
         font-family: var(--primary-font);
@@ -594,13 +594,13 @@ body::before {
     .carrusel-libro,
     .carrusel-libro-2 {
         position: absolute;
-        top: 200px;
+        top: 330px;
         display: flex;
         width: 80%;
         height: 65%;
         border: 2px solid var(--color-quaternary);
         overflow-x: auto;
-
+        z-index: 1;
 
     }
 
@@ -627,11 +627,13 @@ body::before {
 
     .descripcion-libro {
         position: absolute;
-        top: 680px;
-        right: 34px;
+        top: 160px;
+        left: 34px;
         background-color: var(--color-quinary);
         font-size: 20px;
         padding: 1rem;
+        padding-top: 2rem;
+        z-index: 1;
         margin: 0 auto;
         font-family: var(--primary-font);
     }
@@ -654,7 +656,7 @@ body::before {
     .boton-comprar-libro-1,
     .boton-comprar-libro-2 {
         position: absolute;
-        top: 860px;
+        top: 815px;
         height: 50px;
         width: 70%;
         z-index: 1;
@@ -673,28 +675,37 @@ body::before {
 
     }
 
-    .boton-comprar-libro-2 a {
-        text-decoration: none;
-        color: inherit;
-
-    }
+    
 
     .boton-comprar-libro-1:hover {
         background-color: var(--color-quaternary);
         color: var(--color-secondary);
         font-size: 26px;
+    }
 
 
+    .texto-libros-intermedio{
+        position: absolute;
+        top: 770px;
+        background-color: var(--color-quaternary);
+        font-size: 20px;
+        padding: 1rem;
+        padding-top: 120px;
+        color: var(--color-quinary);
+        font-family: var(--primary-font);
+        text-align: justify;
+        z-index: 0;
     }
 
     .carrusel-libro-2 {
-        top: 1150px;
+        top: 1340px;
+        z-index: 0;
     }
 
     .descripcion-libro-2 {
         position: absolute;
-        top: 1635px;
-        left: 34px;
+        top: 1190px;
+        right: 34px;
         background-color: var(--color-quinary);
         font-size: 20px;
         padding: 1rem;
@@ -705,7 +716,13 @@ body::before {
     }
 
     .boton-comprar-libro-2 {
-        top: 1810px;
+        top: 1830px;
+ 
+    }
+    .boton-comprar-libro-2 a {
+        text-decoration: none;
+        color: inherit;
+
     }
 
     #swap-section-4 {
