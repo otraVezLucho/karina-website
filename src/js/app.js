@@ -1,4 +1,4 @@
-
+//Navbar 
 const menu_button = document.querySelector('.bx-menu');
 
 const close_button = document.querySelector('.close-menu');
@@ -13,15 +13,20 @@ menu_button.addEventListener('click', () => {
     ul_navbar.classList.toggle('list-ul');
 });
 
-
-
-
-
 const navbar = document.querySelector('.navbar');
 
-const body = document.querySelector('body');
+const body = document.querySelector('.body');
 let scroll_position = window.pageYOffset;
 navbar.addEventListener('scroll',function() {
-console.log(typeof(scroll_position));
 
+console.log(typeof(scroll_position));
+});
+
+//muñeco
+
+let doll = document.querySelector('.doll-kaluna');
+
+doll.addEventListener('click', ()=>{
+   
+    doll.classList.toggle('doll-kaluna-active');
 });
