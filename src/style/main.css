@@ -803,7 +803,7 @@ body::before {
         right: 15px;
         
         width: 50%;
-        height: 15%;
+        height: 20%;
         overflow: hidden;
     }
     .container-video-wide{
@@ -824,7 +824,7 @@ body::before {
     }
     .bx-play-circle{
         position: absolute;
-        top: 40px;
+        top: 60px;
         right:90px;
         scale: 4;
         color: #F4EFEA;
@@ -835,7 +835,44 @@ body::before {
         right:20px;
         scale: 3;
     }
+    footer{
+        position: relative;
+        top: 950px;
+        background-color: #6B1F2C;
+        height: 100px;
+        width: 100%;
+        box-sizing: border-box;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        font-family: var(--primary-font);
+    }
         
+    .container-info{
+        
+        width: 30%;
+        align-content: center;
+        text-align: center;
+
+    }
+    .lista-info{
+        list-style: none;
+    }
+    .container-icon{
+        
+        width: 30%;
+        align-content: center;
+text-align: center;
+    }
+    .container-social-media{
+        
+        width: 30%;
+        align-content: center;
+        text-align: center;
+        font-size: 30px;
+    }
 
     
-}   
+}
