@@ -1,3 +1,5 @@
+
+
 //Navbar 
 const menu_button = document.querySelector('.bx-menu');
 
@@ -22,11 +24,20 @@ navbar.addEventListener('scroll',function() {
 console.log(typeof(scroll_position));
 });
 
-//muñeco
 
+/*
 let doll = document.querySelector('.doll-kaluna');
 
 doll.addEventListener('click', ()=>{
-   
     doll.classList.toggle('doll-kaluna-active');
+});
+*/
+
+const button_play = document.querySelector('.bx-play-circle');
+
+button_play.addEventListener('click', ()=>{
+    console.log("entro");
+    button_play.classList.toggle('bx-x-circle');
+    const container_video= document.querySelector('.container-video');
+    container_video.classList.toggle('container-video-wide');
 });

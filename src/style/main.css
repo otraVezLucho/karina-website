@@ -737,7 +737,7 @@ body::before {
         top: 960px;
         height: 100vh;
         width: 99%;
-        border: 2px solid red;
+        
     }
 
     .doll-kaluna{
@@ -745,7 +745,7 @@ body::before {
         position: relative;
         top: 20px;
         right: 100px;
-        filter: grayscale(100%);
+        
         transition: all  0.8s ease;
         transform-origin: center;
     }
@@ -795,6 +795,47 @@ body::before {
         text-align: center;  
         padding: 0.5rem;
         width: 80%;
-        background-color: #C9A6A0; 
+        background-color: #c9a6a0b2; 
     }
+    .container-video{
+        position: absolute;
+        top: 310px;
+        right: 15px;
+        
+        width: 50%;
+        height: 15%;
+        overflow: hidden;
+    }
+    .container-video-wide{
+        position: absolute;
+        top: 310px;
+        right: 15px;
+        box-shadow: 0 0 20px #B89B5E;
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        border-radius: 20px;
+        z-index: 5;
+
+    }
+    .video-kaluna{
+        width: 100%;
+       
+    }
+    .bx-play-circle{
+        position: absolute;
+        top: 50px;
+        right:90px;
+        scale: 6;
+        color: #F4EFEA;
+    }
+    .bx-x-circle{
+        position: absolute;
+        top: 20px;
+        right:20px;
+        scale: 3;
+    }
+        
+
+    
 }   
