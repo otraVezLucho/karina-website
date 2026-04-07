@@ -735,7 +735,7 @@ body::before {
     .doll-section{
         position: relative;
         top: 960px;
-        height: 100vh;
+        height: 80vh;
         width: 99%;
         
     }
@@ -808,7 +808,7 @@ body::before {
     }
     .container-video-wide{
         position: absolute;
-        top: 310px;
+        top: 10px;
         right: 15px;
         box-shadow: 0 0 20px #B89B5E;
         width: 90%;
@@ -824,9 +824,9 @@ body::before {
     }
     .bx-play-circle{
         position: absolute;
-        top: 50px;
+        top: 40px;
         right:90px;
-        scale: 6;
+        scale: 4;
         color: #F4EFEA;
     }
     .bx-x-circle{
