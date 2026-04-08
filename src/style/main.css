@@ -543,7 +543,7 @@ body::before {
     .section-libro {
         position: relative;
         top: -220px;
-        height: 105vh;
+        height: 110vh;
         box-sizing: border-box;
         display: flex;
         justify-content: center;
@@ -700,13 +700,13 @@ body::before {
     }
 
     .carrusel-libro-2 {
-        top: 1340px;
+        top: 1450px;
         z-index: 0;
     }
 
     .descripcion-libro-2 {
         position: absolute;
-        top: 1190px;
+        top: 1240px;
         right: 34px;
         background-color: var(--color-quinary);
         font-size: 20px;
@@ -718,7 +718,7 @@ body::before {
     }
 
     .boton-comprar-libro-2 {
-        top: 1850px;
+        top: 1955px;
  
     }
     .boton-comprar-libro-2 a {
@@ -730,7 +730,7 @@ body::before {
     #swap-section-4 {
         position: relative;
         height: 80px;
-        bottom: -960px;
+        bottom: -980px;
     }
     .doll-section{
         position: relative;
@@ -801,7 +801,7 @@ body::before {
         position: absolute;
         top: 310px;
         right: 15px;
-        
+        border-radius: 50px;
         width: 50%;
         height: 20%;
         overflow: hidden;
@@ -848,6 +848,7 @@ body::before {
         flex-direction: row;
         padding: 1rem;
         font-family: var(--primary-font);
+        color: var(--color-quinary);
     }
         
     .container-info{
