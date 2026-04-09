@@ -12,7 +12,11 @@
     --color-quinary: #F4EFEA;
 }
 
-
+/*para que todas las anclas no usen la decoracion por defecto   */
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 body {
@@ -135,6 +139,7 @@ body::before {
         align-content: center;
         box-shadow: 0 0 25px 5px var(--color-quaternary);
         z-index: 99;
+        
 
 
     }
@@ -835,7 +840,86 @@ body::before {
         right:20px;
         scale: 3;
     }
-    footer{
+   
+
+    .store-intro-section{
+        position: relative;
+        top: 980px;
+        width: 100%;
+        height: 60vh;
+        background-color: var(--color-quinary);
+        color: var(--color-quaternary);
+        font-family: var(--primary-font);
+        font-size: 22px;
+        align-content: center;  
+        padding: 20px 0;
+    }
+
+    .store_container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+    .p1-store{
+        padding: 20px 0;
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--color-secondary);
+        text-transform: uppercase;
+    }
+    
+    .p2-store{
+        text-transform: uppercase;
+        font-size: 30px;
+        padding:  0 0 20px 0;
+        color: var(--color-quinary);
+        
+    }
+    .inner-text-container-store{
+        background: linear-gradient(20deg,#917a49, #B89B5E );
+        padding: 1rem;
+       
+    }
+    .p3-store{
+        padding: 0.5rem;
+        border: 2px solid var(--color-secondary);
+        width: 80%;
+        margin: 0 auto;
+        font-size: 25px;
+        text-align: center;
+        align-content: center;
+        color: var(--color-quinary);
+    }
+
+    .button-store-container{
+        height: 50px;
+        width: 70%;
+       margin-top: 10px;
+        font-family: var(--primary-font);
+        font-size: 25px;
+        font-weight: bold;
+        border: none;
+        color: var(--color-quaternary);
+        background-color: var(--color-secondary);
+        
+    }
+ 
+    
+
+
+
+
+
+
+
+
+     footer{
         position: relative;
         top: 980px;
         background-color: #6B1F2C;
@@ -874,19 +958,4 @@ text-align: center;
         text-align: center;
         font-size: 30px;
     }
-
-    .store-intro-section{
-        position: relative;
-        top: 980px;
-        width: 100%;
-        height: 100px;
-        background-color: var(--color-quinary);
-        color: var(--color-quaternary);
-        font-family: var(--primary-font);
-        font-size: 22px;
-        align-content: center;
-        text-align: center;
-
-    }
-    
 }
