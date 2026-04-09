@@ -139,7 +139,7 @@ body::before {
         align-content: center;
         box-shadow: 0 0 25px 5px var(--color-quaternary);
         z-index: 99;
-        
+
 
 
     }
@@ -682,7 +682,7 @@ body::before {
 
     }
 
-    
+
 
     .boton-comprar-libro-1:hover {
         background-color: var(--color-quaternary);
@@ -691,7 +691,7 @@ body::before {
     }
 
 
-    .texto-libros-intermedio{
+    .texto-libros-intermedio {
         position: absolute;
         top: 790px;
         background-color: var(--color-quaternary);
@@ -724,8 +724,9 @@ body::before {
 
     .boton-comprar-libro-2 {
         top: 1955px;
- 
+
     }
+
     .boton-comprar-libro-2 a {
         text-decoration: none;
         color: inherit;
@@ -737,25 +738,26 @@ body::before {
         height: 80px;
         bottom: -980px;
     }
-    .doll-section{
+
+    .doll-section {
         position: relative;
         top: 960px;
         height: 80vh;
         width: 99%;
-        
+
     }
 
-    .doll-kaluna{
+    .doll-kaluna {
         width: 90%;
         position: relative;
         top: 20px;
         right: 100px;
-        
-        transition: all  0.8s ease;
+
+        transition: all 0.8s ease;
         transform-origin: center;
     }
-        
-    .doll-kaluna-active{
+
+    .doll-kaluna-active {
         top: 50px;
         left: 100px;
         transform: rotateY(180deg);
@@ -763,7 +765,7 @@ body::before {
         scale: 1.3;
     }
 
-    .titulo-kaluna{
+    .titulo-kaluna {
         position: absolute;
         top: 40px;
         right: 0;
@@ -776,7 +778,8 @@ body::before {
         background-color: #F4EFEA;
         width: 60%;
     }
-    .parrafo1-kaluna{
+
+    .parrafo1-kaluna {
         position: absolute;
         top: 156px;
         right: 0;
@@ -784,25 +787,27 @@ body::before {
         font-family: var(--primary-font);
         font-size: 28px;
         font-weight: bold;
-        text-align: right;  
+        text-align: right;
         padding: 0.5rem;
         width: 45%;
         background-color: #6B1F2C;
     }
-    .nombre-kaluna{
-       position: absolute;
+
+    .nombre-kaluna {
+        position: absolute;
         top: 450px;
         right: 0;
         color: var(--color-secondary);
         font-family: var(--primary-font);
         font-size: 55px;
         font-weight: bold;
-        text-align: center;  
+        text-align: center;
         padding: 0.5rem;
         width: 80%;
-        background-color: #c9a6a0b2; 
+        background-color: #c9a6a0b2;
     }
-    .container-video{
+
+    .container-video {
         position: absolute;
         top: 310px;
         right: 15px;
@@ -811,7 +816,8 @@ body::before {
         height: 20%;
         overflow: hidden;
     }
-    .container-video-wide{
+
+    .container-video-wide {
         position: absolute;
         top: 10px;
         right: 15px;
@@ -823,26 +829,29 @@ body::before {
         z-index: 5;
 
     }
-    .video-kaluna{
+
+    .video-kaluna {
         width: 100%;
-       
+
     }
-    .bx-play-circle{
+
+    .bx-play-circle {
         position: absolute;
         top: 60px;
-        right:90px;
+        right: 90px;
         scale: 4;
         color: #F4EFEA;
     }
-    .bx-x-circle{
+
+    .bx-x-circle {
         position: absolute;
         top: 20px;
-        right:20px;
+        right: 20px;
         scale: 3;
     }
-   
 
-    .store-intro-section{
+
+    .store-intro-section {
         position: relative;
         top: 980px;
         width: 100%;
@@ -851,11 +860,11 @@ body::before {
         color: var(--color-quaternary);
         font-family: var(--primary-font);
         font-size: 22px;
-        align-content: center;  
+        align-content: center;
         padding: 20px 0;
     }
 
-    .store_container{
+    .store_container {
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -863,30 +872,32 @@ body::before {
         justify-content: center;
         text-align: center;
         margin: 0 auto;
-        
+
     }
 
-    .p1-store{
+    .p1-store {
         padding: 20px 0;
         font-size: 30px;
         font-weight: bold;
         color: var(--color-secondary);
         text-transform: uppercase;
     }
-    
-    .p2-store{
+
+    .p2-store {
         text-transform: uppercase;
         font-size: 30px;
-        padding:  0 0 20px 0;
+        padding: 0 0 20px 0;
         color: var(--color-quinary);
-        
+
     }
-    .inner-text-container-store{
-        background: linear-gradient(20deg,#917a49, #B89B5E );
+
+    .inner-text-container-store {
+        background: linear-gradient(20deg, #917a49, #B89B5E);
         padding: 1rem;
-       
+
     }
-    .p3-store{
+
+    .p3-store {
         padding: 0.5rem;
         border: 2px solid var(--color-secondary);
         width: 80%;
@@ -897,20 +908,85 @@ body::before {
         color: var(--color-quinary);
     }
 
-    .button-store-container{
+    .button-store-container {
         height: 50px;
         width: 70%;
-       margin-top: 10px;
+        margin-top: 10px;
         font-family: var(--primary-font);
         font-size: 25px;
         font-weight: bold;
         border: none;
         color: var(--color-quaternary);
         background-color: var(--color-secondary);
-        
+
     }
- 
+
+    .contact {
+        position: relative;
+        top: 980px;
+        height: 90vh;
+        
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .contact p {
+        text-align: center;
+        font-family: var(--primary-font);
+        font-size: 30px;
+        color: var(--color-quaternary);
+        margin: 1rem 0;
+        text-transform: uppercase;
     
+    }
+
+    .form-contact {
+        padding: 1rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #917a49;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .form-contact p {
+        text-align: center;
+        font-family: var(--primary-font);
+        font-size: 25px;
+        color: var(--color-quaternary);
+        text-transform: capitalize;
+    }
+
+    .form-contact input {
+        width: 90%;
+        margin-top: 1rem;
+        height: 40px;
+        border: none;
+        padding: 1rem;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+    #message {
+        text-align: start;
+        height: 80px;
+        max-height: auto;
+    }
+
+    .form-contact button {
+        height: 50px;
+        width: 70%;
+        margin-top: 10px;
+        font-family: var(--primary-font);
+        font-size: 25px;
+        font-weight: bold;
+        border: none;
+        color: var(--color-quaternary);
+        background-color: var(--color-secondary);
+    }
 
 
 
@@ -918,42 +994,52 @@ body::before {
 
 
 
-
-     footer{
+    footer {
         position: relative;
         top: 980px;
         background-color: #6B1F2C;
-        height: 100px;
+        height: auto;
         width: 100%;
         box-sizing: border-box;
         align-content: center;
         justify-content: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         padding: 1rem;
         font-family: var(--primary-font);
         color: var(--color-quinary);
+        gap: 0.5rem;
     }
+
+    .container-info {
+
         
-    .container-info{
-        
-        width: 30%;
         align-content: center;
         text-align: center;
 
     }
-    .lista-info{
+
+    .lista-info {
         list-style: none;
     }
-    .container-icon{
+
+    .container-icon {
+
         
-        width: 30%;
+        
         align-content: center;
-text-align: center;
+        text-align: center;
+        align-items: center;
     }
-    .container-social-media{
-        
-        width: 30%;
+    .container-icon img{
+        width: 200px;
+    }
+    .container-social-media {
+
+
         align-content: center;
         text-align: center;
         font-size: 30px;
