@@ -949,7 +949,7 @@ body::before {
         font-family: var(--primary-font);
         font-size: 30px;
         color: var(--color-quaternary);
-        margin: 1rem 0;
+        margin: 1rem 0.5rem;
         text-transform: uppercase;
     
     }
