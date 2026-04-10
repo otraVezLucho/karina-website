@@ -740,10 +740,11 @@ body::before {
     }
 
     .doll-section {
-        position: relative;
+        background-color: var(--color-quaternary);
         top: 960px;
         height: 80vh;
-        width: 99%;
+        width: 100%;
+        box-sizing: border-box;
 
     }
 
@@ -767,8 +768,8 @@ body::before {
 
     .titulo-kaluna {
         position: absolute;
-        top: 40px;
-        right: 0;
+        top: 100px;
+        right: 4px;
         color: var(--color-quaternary);
         font-family: var(--primary-font);
         font-size: 40px;
@@ -782,7 +783,7 @@ body::before {
     .parrafo1-kaluna {
         position: absolute;
         top: 156px;
-        right: 0;
+        right: 4px;
         color: var(--color-quinary);
         font-family: var(--primary-font);
         font-size: 28px;
@@ -796,7 +797,7 @@ body::before {
     .nombre-kaluna {
         position: absolute;
         top: 450px;
-        right: 0;
+        right: 4px;
         color: var(--color-secondary);
         font-family: var(--primary-font);
         font-size: 55px;
@@ -990,7 +991,12 @@ body::before {
     }
 
 
+/*Store style*/
 
+.store-section{
+    display: flex;
+    margin-top: 70px;
+}
 
 
 
