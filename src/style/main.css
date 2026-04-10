@@ -808,26 +808,28 @@ body::before {
     }
 
     .container-video {
-        position: absolute;
-        top: 310px;
-        right: 15px;
-        border-radius: 50px;
-        width: 50%;
-        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 80%;
+        height: 150px;
         overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        text-align: center;
     }
 
     .container-video-wide {
         position: absolute;
         top: 10px;
-        right: 15px;
+        right: 25px;
         box-shadow: 0 0 20px #B89B5E;
         width: 90%;
         height: auto;
         overflow: hidden;
         border-radius: 20px;
         z-index: 5;
-
     }
 
     .video-kaluna {
@@ -837,16 +839,15 @@ body::before {
 
     .bx-play-circle {
         position: absolute;
-        top: 60px;
-        right: 90px;
+        
         scale: 4;
         color: #F4EFEA;
     }
 
     .bx-x-circle {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 30px;
+        right: 30px;
         scale: 3;
     }
 
@@ -855,7 +856,7 @@ body::before {
         position: relative;
         top: 980px;
         width: 100%;
-        height: 60vh;
+        height: 90vh;
         background-color: var(--color-quinary);
         color: var(--color-quaternary);
         font-family: var(--primary-font);
@@ -997,7 +998,7 @@ body::before {
     footer {
         position: relative;
         top: 980px;
-        background-color: #6B1F2C;
+        background-color: var(--color-quinary);
         height: auto;
         width: 100%;
         box-sizing: border-box;
@@ -1010,7 +1011,7 @@ body::before {
         align-items: center;
         padding: 1rem;
         font-family: var(--primary-font);
-        color: var(--color-quinary);
+        color: var(--color-primary);
         gap: 0.5rem;
     }
 
@@ -1027,9 +1028,6 @@ body::before {
     }
 
     .container-icon {
-
-        
-        
         align-content: center;
         text-align: center;
         align-items: center;
@@ -1038,8 +1036,6 @@ body::before {
         width: 200px;
     }
     .container-social-media {
-
-
         align-content: center;
         text-align: center;
         font-size: 30px;
