@@ -25,14 +25,6 @@ console.log(typeof(scroll_position));
 });
 
 
-
-let doll = document.querySelector('.doll-kaluna');
-
-doll.addEventListener('click', ()=>{
-    doll.classList.toggle('doll-kaluna-active');
-});
-
-
 const button_play = document.querySelector('.bx-play-circle');
 
 button_play.addEventListener('click', ()=>{
@@ -41,3 +33,12 @@ button_play.addEventListener('click', ()=>{
     const container_video= document.querySelector('.container-video');
     container_video.classList.toggle('container-video-wide');
 });
+
+
+let doll = document.querySelector('.doll-kaluna');
+
+doll.addEventListener('click', ()=>{
+    doll.classList.toggle('doll-kaluna-active');
+});
+
+
