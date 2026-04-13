@@ -980,26 +980,26 @@ body::before {
         box-sizing: border-box;
         padding: 1rem 0;
     }
-    .doll-container {
-        position: relative;
+    .product-container {
+        
         border: 2px solid var(--color-quaternary);
-        height: 160vh;
+        height: auto;
         width: 90%;
         box-sizing: border-box;
         overflow: hidden;
         text-align: justify;
         display: flex;
+        flex-flow: column;
         align-items: center;
-        justify-content: center;
-
+        
     }
-    .img-doll{
+    .product-img{
+        border: 2px solid var(--color-quaternary);
+        height: auto;
+        overflow: hidden;
         width: 110%;
     }
-    .nombre-kaluna {
-        position: absolute;
-        top:480px;
-        
+    .product-name {       
         color: var(--color-secondary);
         font-family: var(--primary-font);
         font-size: 55px;
@@ -1010,10 +1010,7 @@ body::before {
         background-color: var(--color-quaternary);
         text-align: center;
     }
-    .titulo-kaluna {
-        position: absolute;
-        top: 559px;
-        
+    .product-title {        
         color: var(--color-quinary);
         font-family: var(--primary-font);
         font-size: 20px;
@@ -1023,10 +1020,7 @@ body::before {
         background-color: var(--color-quaternary);
         width: 100%;
     }
-    .price{
-        position: absolute;
-        top: 599px;
-        right: 0;
+    .product-price{
         color: var(--color-quaternary);
         font-family: var(--primary-font);
         font-size: 25px;
@@ -1037,18 +1031,14 @@ body::before {
         width: 160px;
     }
 
-    .doll-kaluna {
+    .img-item {
         width: 100%;
-        position: absolute;
-        top: -40px;
-        right: 80px;
     }
-    .infocard{
-        position: absolute;
-        top: 650px;
+    .product-infocard{
+        margin: 1rem 0;
     }
 
-    .subtitle-kaluna {
+    .subtitle-product {
         
         color: var(--color-quinary);
         font-family: var(--primary-font);
@@ -1063,12 +1053,9 @@ body::before {
         
     }
 
-    .button-get{
-        position: absolute;
-        top: 1150px;
+    .product-button-get{
         width: 70%;
-        height: 50px;
-        
+        height: 50px;  
         z-index: 1;
         font-family: var(--primary-font);
         font-size: 25px;
@@ -1076,22 +1063,27 @@ body::before {
         border: none;
         color: var(--color-quaternary);
         background-color: var(--color-secondary);
-    }
-    .doll-kaluna-active {
-        top: 50px;
-        left: 100px;
-        transform: rotateY(180deg);
-        filter: grayscale(0%);
-        scale: 1.3;
+        margin: 1rem 0;
     }
 
     
-
-    
-
-    
-
-
+    .footer-store{
+        background-color: var(--color-quinary);
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-family: var(--primary-font);
+        color: var(--color-primary);
+        gap: 0.5rem;
+    }
     footer {
         position: relative;
         top: 980px;
