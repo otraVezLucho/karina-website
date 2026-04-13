@@ -123,4 +123,8 @@ es un recordatorio de cuidado hacia ti misma.
         section_products.append(product_card);
     }
 
+
+
+    const footer = document.querySelector('.footer');
+    footer.classList.toggle('footer-store');
     });
