@@ -1084,7 +1084,7 @@ body::before {
         color: var(--color-primary);
         gap: 0.5rem;
     }
-    footer {
+    .footer {
         position: relative;
         top: 980px;
         background-color: var(--color-quinary);
