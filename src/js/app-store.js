@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ,
             video: ""
         },
-        {
+        /*{
             id: 1,
             img_src: "/src/assets/esencias/esencia_img_1.jpg",
             name: "ESENCIAS",
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <br>`
             ,
             video: "/src/assets/video/parches-video.mp4"
-        },
+        },*/
 
     ]
 
@@ -179,6 +179,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    const footer = document.querySelector('.footer');
-    footer.classList.toggle('footer-store');
+    
 });

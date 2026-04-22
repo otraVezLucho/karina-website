@@ -1065,9 +1065,10 @@ body::before {
         background-color: var(--color-secondary);
         margin: 1rem 0;
     }
-
+     
     
-    .footer-store{
+    footer{
+    
         background-color: var(--color-quinary);
         height: auto;
         width: 100%;
@@ -1079,12 +1080,12 @@ body::before {
         align-content: center;
         justify-content: center;
         align-items: center;
-        padding: 1rem;
+        padding: 1rem 0;
         font-family: var(--primary-font);
         color: var(--color-primary);
         gap: 0.5rem;
     }
-    .footer {
+    .footer-main{
         position: relative;
         top: 980px;
         background-color: var(--color-quinary);
