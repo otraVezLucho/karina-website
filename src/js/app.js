@@ -1,7 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
-
+    const images = document.querySelectorAll("img[data-src]")
 
     //Navbar 
     const menu_button = document.querySelector('.bx-menu');
